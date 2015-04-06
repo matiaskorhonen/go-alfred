@@ -15,9 +15,9 @@ type AlfredResponseItem struct {
 	Valid bool `xml:"valid,attr"`
 	Arg string `xml:"arg,attr"`
 	Uid string `xml:"uid,attr"`
+	Autocomplete string `xml:"autocomplete,attr"`
 	Title string `xml:"title"`
 	Subtitle string `xml:"subtitle"`
-	Autocomplete string `xml:"autocomplete"`
 	Icon string `xml:"icon"`
 
 	XMLName struct{} `xml:"item"`
